@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Rock Paper Scissors Game</title>        
+    </head>
+    <script src = "rock-paper-scissors-js.js"></script>
+    <link rel="stylesheet" type="text/css" href="rps.css">
+    <body>
+        <img src="rps.png" alt="rock-paper-scissors">
+        <h1>Hello!</h1>
+        <h2 style="color: blue" id="player"></h2>
+        <h2 style="color: red" id="computer"></h2>
+        <h1 style="font-size: 90px" id="result"></h1>
+    </body>    
+    <script>
+            document.getElementById('player').innerHTML = userChoice;
+            document.getElementById('computer').innerHTML = computerChoice;
+            document.getElementById('result').innerHTML = result;
+    </script>
+</html>
