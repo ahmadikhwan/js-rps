@@ -1,6 +1,6 @@
 //rock-paper-scissors js game
 
-var userChoice = prompt('Please choose between a-rock b-paper c-scissors');
+var userChoice = prompt('Please choose between rock paper scissors');
 
 var result;
 
